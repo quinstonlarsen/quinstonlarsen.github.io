@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Quinston&#39;s Sports Blog</title>
+<link>https://your-website-url.example.com/</link>
+<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>A place to discuss sports data</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Tue, 04 Nov 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Emmitt Johnson Runnnignback Stats</title>
+  <dc:creator>Quinston Larsen</dc:creator>
+  <link>https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Emmitt Johnson is on track to be a top 10 running back in Nebraska History.</p>
+
+
+
+ ]]></description>
+  <category>football</category>
+  <category>Nebraska</category>
+  <category>runningback</category>
+  <guid>https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/</guid>
+  <pubDate>Tue, 04 Nov 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/image.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>
