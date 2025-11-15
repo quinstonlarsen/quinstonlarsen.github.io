@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Quinston&#39;s Sports Blog</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>quinstonlarsen.github.io/</link>
+<atom:link href="quinstonlarsen.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A place to discuss sports data</description>
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Tue, 04 Nov 2025 06:00:00 GMT</lastBuildDate>
 <item>
-  <title>Emmett Johnson Runnningback Stats</title>
+  <title>Emmett Johnson Runnning back Stats</title>
   <dc:creator>Quinston Larsen</dc:creator>
-  <link>https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/</link>
+  <link>quinstonlarsen.github.io/posts/Nebraska-football-runningback-stats/</link>
   <description><![CDATA[ 
 
 
@@ -375,7 +375,7 @@ font-style: inherit;">element_blank</span>()</span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="quinstonlarsen.github.io/posts/Nebraska-football-runningback-stats/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -829,7 +829,7 @@ font-style: inherit;"># added extra top and side margins</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="quinstonlarsen.github.io/posts/Nebraska-football-runningback-stats/index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1488,7 +1488,7 @@ font-style: inherit;">element_blank</span>()</span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="quinstonlarsen.github.io/posts/Nebraska-football-runningback-stats/index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -1502,10 +1502,10 @@ font-style: inherit;">element_blank</span>()</span>
  ]]></description>
   <category>football</category>
   <category>Nebraska</category>
-  <category>runningback</category>
-  <guid>https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/</guid>
+  <category>running back</category>
+  <guid>quinstonlarsen.github.io/posts/Nebraska-football-runningback-stats/</guid>
   <pubDate>Tue, 04 Nov 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/Nebraska-football-runningback-stats/image.png" medium="image" type="image/png" height="103" width="144"/>
+  <media:content url="quinstonlarsen.github.io/posts/Nebraska-football-runningback-stats/image.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 </channel>
 </rss>
