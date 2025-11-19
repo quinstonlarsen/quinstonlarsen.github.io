@@ -816,9 +816,7 @@ font-style: inherit;">20</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">l =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">30</span>)  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># added extra top and side margins</span></span>
+font-style: inherit;">30</span>)</span>
 <span id="cb3-47">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output cell-output-stderr">
