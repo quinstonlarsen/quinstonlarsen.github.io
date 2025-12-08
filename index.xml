@@ -933,7 +933,7 @@ background-color: null;
 font-style: inherit;">24.1</span>, Pts),   </span>
 <span id="cb4-9">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">Color =</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">Defense_Type =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ifelse</span>(Year <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -941,9 +941,11 @@ font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">2025</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"black"</span>, <span class="st" style="color: #20794D;
+font-style: inherit;">"2025 Steelers Defense"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"lightgray"</span>),   </span>
+font-style: inherit;">"All Steelers defenses"</span>),  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Legend labels</span></span>
 <span id="cb4-10">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">Size =</span> <span class="fu" style="color: #4758AB;
@@ -990,7 +992,7 @@ font-style: inherit;">geom_point</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">color =</span> Color, <span class="at" style="color: #657422;
+font-style: inherit;">color =</span> Defense_Type, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">size =</span> Size)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -1009,10 +1011,13 @@ font-style: inherit;">%in%</span> label_years),</span>
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">label =</span> Year, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> Label_Color),</span>
+font-style: inherit;">label =</span> Year),</span>
 <span id="cb4-20">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>,</span>
+<span id="cb4-21">            <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">vjust =</span> <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -1033,8 +1038,8 @@ background-color: null;
 font-style: inherit;">FALSE</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-21">  </span>
-<span id="cb4-22">  <span class="fu" style="color: #4758AB;
+<span id="cb4-22">  </span>
+<span id="cb4-23">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_hline</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1055,7 +1060,7 @@ background-color: null;
 font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-23">  <span class="fu" style="color: #4758AB;
+<span id="cb4-24">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_vline</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1076,89 +1081,89 @@ background-color: null;
 font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-24">  </span>
-<span id="cb4-25">  <span class="fu" style="color: #4758AB;
+<span id="cb4-25">  </span>
+<span id="cb4-26">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">scale_color_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(</span>
-<span id="cb4-26">    <span class="st" style="color: #20794D;
+<span id="cb4-27">    <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"black"</span> <span class="ot" style="color: #003B4F;
+font-style: inherit;">"2025 Steelers Defense"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"black"</span>,          </span>
-<span id="cb4-27">    <span class="st" style="color: #20794D;
+<span id="cb4-28">    <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"lightgray"</span> <span class="ot" style="color: #003B4F;
+font-style: inherit;">"All Steelers defenses"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"lightgray"</span>,   </span>
-<span id="cb4-28">    <span class="st" style="color: #20794D;
+font-style: inherit;">"lightgrey"</span>,   </span>
+<span id="cb4-29">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Average DSRS"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"blue"</span>,     </span>
-<span id="cb4-29">    <span class="st" style="color: #20794D;
+<span id="cb4-30">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Average Points Allowed"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"red"</span> </span>
-<span id="cb4-30">  )) <span class="sc" style="color: #5E5E5E;
+<span id="cb4-31">  )) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-31">  </span>
-<span id="cb4-32">  <span class="fu" style="color: #4758AB;
+<span id="cb4-32">  </span>
+<span id="cb4-33">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">scale_size_identity</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb4-33">  <span class="fu" style="color: #4758AB;
+<span id="cb4-34">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb4-34">    <span class="at" style="color: #657422;
+<span id="cb4-35">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Steelers Defense in Focus"</span>,</span>
-<span id="cb4-35">    <span class="at" style="color: #657422;
+<span id="cb4-36">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"A clear look at how every Steelers defense stacks up against 2025."</span>,</span>
-<span id="cb4-36">    <span class="at" style="color: #657422;
+<span id="cb4-37">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Points Allowed Per Game"</span>,</span>
-<span id="cb4-37">    <span class="at" style="color: #657422;
+<span id="cb4-38">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Defensive SRS"</span>,</span>
-<span id="cb4-38">    <span class="at" style="color: #657422;
+<span id="cb4-39">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Legend"</span> , </span>
-<span id="cb4-39">    <span class="at" style="color: #657422;
+font-style: inherit;">"Legend"</span>,</span>
+<span id="cb4-40">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Source: Pro-Football Reference | by Quinston Larsen"</span></span>
-<span id="cb4-40">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb4-41">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-41">  </span>
-<span id="cb4-42">  <span class="fu" style="color: #4758AB;
+<span id="cb4-42">  </span>
+<span id="cb4-43">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_classic</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -1167,10 +1172,10 @@ background-color: null;
 font-style: inherit;">14</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb4-43">  <span class="fu" style="color: #4758AB;
+<span id="cb4-44">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(</span>
-<span id="cb4-44">    <span class="at" style="color: #657422;
+<span id="cb4-45">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1183,7 +1188,7 @@ background-color: null;
 font-style: inherit;">hjust =</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.5</span>),</span>
-<span id="cb4-45">    <span class="at" style="color: #657422;
+<span id="cb4-46">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1192,8 +1197,9 @@ background-color: null;
 font-style: inherit;">hjust =</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.5</span>)</span>
-<span id="cb4-46">  )</span>
-<span id="cb4-47"><span class="fu" style="color: #4758AB;
+<span id="cb4-47">  )</span>
+<span id="cb4-48"></span>
+<span id="cb4-49"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">print</span>(scatter_chart_all)</span></code></pre></div></div>
 </details>
