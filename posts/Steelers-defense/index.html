@@ -195,7 +195,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is a story about how the 2025 Steelers are having an all-time</p>
+<p>Steelers Defense at an All-Time Low? A Deep Dive Through Five Decades of History</p>
+<p>For generations, the Pittsburgh Steelers embodied one unmistakable identity: hard-nosed, suffocating defense. It’s the brand that defined the city, the franchise, and the fan base. For years, you didn’t need a superstar quarterback or a flashy offense. If you wore black and gold, you won games by hitting harder, tackling smarter, and outworking everyone on the field.</p>
+<p>But today, something feels different.</p>
+<p>Something feels broken.</p>
+<p>When you look at the numbers, study the trends, and compare 2025 to the Steelers’ long defensive lineage, the story becomes clearer — and more alarming. This year’s defense isn’t just struggling. It’s drifting into territory Pittsburgh hasn’t seen in decades.</p>
+<p>And the visuals from the charts the bar graph, line chart, and scatter plot don’t just confirm that.</p>
+<p>They magnify it.</p>
+<p>Here’s the bar chart to express that.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -240,7 +247,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Type =</span> <span class="st">"2025"</span>, <span class="at">Label =</span> <span class="st">"2025"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<p>Bar Chart</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -277,21 +283,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  )) <span class="sc">+</span></span>
 <span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Points Allowed Per Game: 2025 vs. Steelers Historical Extremes"</span>,</span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Points Allowed Per Game"</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">14</span>) <span class="sc">+</span></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span>,</span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.line =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"black"</span>),</span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"black"</span>)</span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(plot_bar)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Best vs Worst Steelers Defensive Seasons"</span>,</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitlte =</span> <span class="st">"Comparing historic dominance with modern struggles."</span>,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Points Allowed Per Game"</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">14</span>) <span class="sc">+</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span>,</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.line =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"black"</span>),</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"black"</span>)</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(plot_bar)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -301,7 +308,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Line Chart</p>
+<p>Years where the defense wasn’t just good… it was the reason the Steelers won games.</p>
+<p>Those teams held opponents in check, posted elite DSRS ratings, and dominated at every level. They set the tone for what we expect a “real Steelers defense” to look like.</p>
+<p>But when you lay those great defenses next to 2025, the contrast is hard to miss. The points allowed are higher. The DSRS rating is lower. And the gap between the Steelers and the top defenses in franchise history feels wider than ever.</p>
+<p>Another way to see the Steelers’ struggles is using DSRS in a line chart.</p>
+<p>DSRS, or Defensive Simple Rating System, is a metric that estimates how strong a defense is compared to league average by accounting for both opponent quality and in-game performance. A positive DSRS means the defense performed better than what an average NFL defense would against the same schedule, while a negative score reflects below-average play. In the chart, each season’s DSRS value is plotted to show how Pittsburgh’s defense rose or fell relative to that standard. Higher points on the line represent years where the defense controlled games, limited scoring, and outperformed expectations. Lower points — especially the sharp drop in 2025 — highlight seasons where the unit struggled, gave up more points than it should have, and fell short of the franchise’s historical identity. The visual makes it easy to see the contrast: decades of mostly stable, above-average defenses interrupted by one season that sharply breaks the pattern.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -329,10 +340,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">expansion</span>(<span class="at">mult =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="fl">0.1</span>))) <span class="sc">+</span></span>
 <span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Defensive Simple Rating System (DSRS) Comparison"</span>,</span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Highlighted Steelers Teams"</span>,</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Breaking Down the 2025 Steelers’ DSRS Performance"</span>,</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"A detailed look at the Pittsburgh's Defensive Simple Rating System"</span>,</span>
 <span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Year"</span>,</span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Defensive SRS Score"</span>,</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Defensive Simple Rating System Score"</span>,</span>
 <span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Team"</span></span>
 <span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>  </span>
@@ -353,11 +364,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>Scatter Chart</p>
+<p>When you look at the line graph charting DSRS across the highlighted seasons, the story becomes even clearer. The graph doesn’t just show numbers rising and falling — it shows the emotional heartbeat of Pittsburgh’s defensive history. Each peak represents a year where the Steelers found their rhythm, trusted their scheme, and imposed their will on opponents. And each dip reflects the growing pains, the injuries, or the internal cracks that slowly shifted the team’s identity. What makes the 2025 point so striking is how far it sits beneath the established rhythm of past seasons. It isn’t just a slump; it’s a free-fall.</p>
+<p>The upward spikes in seasons like 1979, 2018, and 2019 illustrate what a healthy Steelers defense looks like. Those years jumped off the chart because the team played fast, physical, and connected. You see those values in the line: sharp peaks that say “this team dictated the game.” Even 2023, which wasn’t historically elite, still sits in a respectable position — high enough to reflect stability and production. These years form a consistent pattern of respectable defensive performance, the kind fans have grown to expect.</p>
+<p>Then there’s 2025, cutting sharply downward like the edge of a cliff. The drop in DSRS isn’t subtle. It reflects a defense that struggled at every level — communication issues, blown coverages, inconsistent pressure, and an inability to force opponents into mistakes. The line graph makes these struggles impossible to ignore: while other seasons hover around steady, positive values, 2025 breaks the pattern and dips into negative territory. It visually isolates itself from the rest of Pittsburgh’s history.</p>
+<p>What makes this visual especially powerful is the contrast. The highs and lows of past seasons rise and fall, but the overall trend still reflects decades of quality defense. Then 2025 comes along, and the line doesn’t bend — it collapses. When fans see the graph, they’re not just looking at a number. They’re seeing a moment where the franchise’s defensive standard wasn’t met. A moment that forces the question: How did Pittsburgh’s greatest strength become its weakness in a single season?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>label_years <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1979</span>, <span class="dv">2019</span>, <span class="dv">2023</span>, <span class="dv">2025</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>label_years <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1979</span>, <span class="dv">2018</span>, <span class="dv">2019</span>, <span class="dv">2023</span>, <span class="dv">2025</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>avg_pts <span class="ot">&lt;-</span> <span class="fu">mean</span>(df_steelers<span class="sc">$</span>Pts, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>avg_dsrs <span class="ot">&lt;-</span> <span class="fu">mean</span>(df_steelers<span class="sc">$</span>DSRS, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
@@ -390,8 +404,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_size_identity</span>() <span class="sc">+</span> </span>
 <span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Steelers Defensive Performance Through History"</span>,</span>
-<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"DSRS vs Points Allowed"</span>,</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Steelers Defense in Focus"</span>,</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"A clear look at how every Steelers defense stacks up against 2025."</span>,</span>
 <span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Points Allowed Per Game"</span>,</span>
 <span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Defensive SRS"</span>,</span>
 <span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"Legend"</span></span>
@@ -412,6 +426,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>The scatterplot comparing DSRS to Points Allowed paints one of the clearest pictures of Pittsburgh’s defensive identity — and where the 2025 team diverges from it. Most seasons cluster in the upper-left region of the graph, where strong DSRS ratings pair with low points allowed, reflecting the classic Steelers formula for winning football. The highlighted years like 1979, 2018, 2019, and even 2023 all fall within this historical sweet spot. Then there’s 2025, isolated in the bottom-right corner, where poor defensive ratings collide with elevated scoring allowed. Its position on the chart visually separates it from five decades of Steelers standards, showing not just a statistical outlier but a fundamental break in performance. No matter how you interpret the data; efficiency, dominance, or consistency, the scatter plot makes one thing undeniable: 2025 stands alone for all the wrong reasons.</p>
+<p>In the end, the numbers, charts, and historical comparisons all point toward the same conclusion. The 2025 Steelers defense isn’t simply underperforming — it’s charting new territory in the franchise’s defensive decline. But while the data makes this season difficult to ignore, it also sets the stage for a potential reset. Pittsburgh has rebounded from low points before, rebuilding elite defenses through smart draft picks, bold scheme changes, and a commitment to physical, disciplined football. If history is any guide, this down year may become the spark that reignites the defensive identity Steelers fans have relied on for generations.</p>
 
 
 

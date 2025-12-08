@@ -1513,7 +1513,14 @@ font-style: inherit;">element_blank</span>()</span>
 
 
 
-<p>This is a story about how the 2025 Steelers are having an all-time</p>
+<p>Steelers Defense at an All-Time Low? A Deep Dive Through Five Decades of History</p>
+<p>For generations, the Pittsburgh Steelers embodied one unmistakable identity: hard-nosed, suffocating defense. It’s the brand that defined the city, the franchise, and the fan base. For years, you didn’t need a superstar quarterback or a flashy offense. If you wore black and gold, you won games by hitting harder, tackling smarter, and outworking everyone on the field.</p>
+<p>But today, something feels different.</p>
+<p>Something feels broken.</p>
+<p>When you look at the numbers, study the trends, and compare 2025 to the Steelers’ long defensive lineage, the story becomes clearer — and more alarming. This year’s defense isn’t just struggling. It’s drifting into territory Pittsburgh hasn’t seen in decades.</p>
+<p>And the visuals from the charts the bar graph, line chart, and scatter plot don’t just confirm that.</p>
+<p>They magnify it.</p>
+<p>Here’s the bar chart to express that.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1746,7 +1753,6 @@ background-color: null;
 font-style: inherit;">"2025"</span>)</span></code></pre></div></div>
 </details>
 </div>
-<p>Bar Chart</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -1971,22 +1977,27 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Points Allowed Per Game: 2025 vs. Steelers Historical Extremes"</span>,</span>
+font-style: inherit;">"Best vs Worst Steelers Defensive Seasons"</span>,</span>
 <span id="cb2-35">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitlte =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Comparing historic dominance with modern struggles."</span>,</span>
+<span id="cb2-36">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Year"</span>,</span>
-<span id="cb2-36">    <span class="at" style="color: #657422;
+<span id="cb2-37">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Points Allowed Per Game"</span></span>
-<span id="cb2-37">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb2-38">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb2-38">  </span>
-<span id="cb2-39">  <span class="fu" style="color: #4758AB;
+<span id="cb2-39">  </span>
+<span id="cb2-40">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_classic</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -1995,10 +2006,10 @@ background-color: null;
 font-style: inherit;">14</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb2-40">  <span class="fu" style="color: #4758AB;
+<span id="cb2-41">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(</span>
-<span id="cb2-41">    <span class="at" style="color: #657422;
+<span id="cb2-42">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2011,7 +2022,7 @@ background-color: null;
 font-style: inherit;">hjust =</span> <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.5</span>),</span>
-<span id="cb2-42">    <span class="at" style="color: #657422;
+<span id="cb2-43">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.text.x =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2024,12 +2035,12 @@ background-color: null;
 font-style: inherit;">hjust =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>),</span>
-<span id="cb2-43">    <span class="at" style="color: #657422;
+<span id="cb2-44">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">legend.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"none"</span>,</span>
-<span id="cb2-44">    <span class="at" style="color: #657422;
+<span id="cb2-45">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.line =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2038,7 +2049,7 @@ background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"black"</span>),</span>
-<span id="cb2-45">    <span class="at" style="color: #657422;
+<span id="cb2-46">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.ticks =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2047,9 +2058,9 @@ background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"black"</span>)</span>
-<span id="cb2-46">  )</span>
-<span id="cb2-47"></span>
-<span id="cb2-48"><span class="fu" style="color: #4758AB;
+<span id="cb2-47">  )</span>
+<span id="cb2-48"></span>
+<span id="cb2-49"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">print</span>(plot_bar)</span></code></pre></div></div>
 </details>
@@ -2061,7 +2072,11 @@ font-style: inherit;">print</span>(plot_bar)</span></code></pre></div></div>
 </div>
 </div>
 </div>
-<p>Line Chart</p>
+<p>Years where the defense wasn’t just good… it was the reason the Steelers won games.</p>
+<p>Those teams held opponents in check, posted elite DSRS ratings, and dominated at every level. They set the tone for what we expect a “real Steelers defense” to look like.</p>
+<p>But when you lay those great defenses next to 2025, the contrast is hard to miss. The points allowed are higher. The DSRS rating is lower. And the gap between the Steelers and the top defenses in franchise history feels wider than ever.</p>
+<p>Another way to see the Steelers’ struggles is using DSRS in a line chart.</p>
+<p>DSRS, or Defensive Simple Rating System, is a metric that estimates how strong a defense is compared to league average by accounting for both opponent quality and in-game performance. A positive DSRS means the defense performed better than what an average NFL defense would against the same schedule, while a negative score reflects below-average play. In the chart, each season’s DSRS value is plotted to show how Pittsburgh’s defense rose or fell relative to that standard. Higher points on the line represent years where the defense controlled games, limited scoring, and outperformed expectations. Lower points — especially the sharp drop in 2025 — highlight seasons where the unit struggled, gave up more points than it should have, and fell short of the franchise’s historical identity. The visual makes it easy to see the contrast: decades of mostly stable, above-average defenses interrupted by one season that sharply breaks the pattern.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -2247,12 +2262,12 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Defensive Simple Rating System (DSRS) Comparison"</span>,</span>
+font-style: inherit;">"Breaking Down the 2025 Steelers’ DSRS Performance"</span>,</span>
 <span id="cb3-26">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Highlighted Steelers Teams"</span>,</span>
+font-style: inherit;">"A detailed look at the Pittsburgh's Defensive Simple Rating System"</span>,</span>
 <span id="cb3-27">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
@@ -2262,7 +2277,7 @@ font-style: inherit;">"Year"</span>,</span>
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Defensive SRS Score"</span>,</span>
+font-style: inherit;">"Defensive Simple Rating System Score"</span>,</span>
 <span id="cb3-29">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
@@ -2333,7 +2348,10 @@ font-style: inherit;">print</span>(plot_line)</span></code></pre></div></div>
 </div>
 </div>
 </div>
-<p>Scatter Chart</p>
+<p>When you look at the line graph charting DSRS across the highlighted seasons, the story becomes even clearer. The graph doesn’t just show numbers rising and falling — it shows the emotional heartbeat of Pittsburgh’s defensive history. Each peak represents a year where the Steelers found their rhythm, trusted their scheme, and imposed their will on opponents. And each dip reflects the growing pains, the injuries, or the internal cracks that slowly shifted the team’s identity. What makes the 2025 point so striking is how far it sits beneath the established rhythm of past seasons. It isn’t just a slump; it’s a free-fall.</p>
+<p>The upward spikes in seasons like 1979, 2018, and 2019 illustrate what a healthy Steelers defense looks like. Those years jumped off the chart because the team played fast, physical, and connected. You see those values in the line: sharp peaks that say “this team dictated the game.” Even 2023, which wasn’t historically elite, still sits in a respectable position — high enough to reflect stability and production. These years form a consistent pattern of respectable defensive performance, the kind fans have grown to expect.</p>
+<p>Then there’s 2025, cutting sharply downward like the edge of a cliff. The drop in DSRS isn’t subtle. It reflects a defense that struggled at every level — communication issues, blown coverages, inconsistent pressure, and an inability to force opponents into mistakes. The line graph makes these struggles impossible to ignore: while other seasons hover around steady, positive values, 2025 breaks the pattern and dips into negative territory. It visually isolates itself from the rest of Pittsburgh’s history.</p>
+<p>What makes this visual especially powerful is the contrast. The highs and lows of past seasons rise and fall, but the overall trend still reflects decades of quality defense. Then 2025 comes along, and the line doesn’t bend — it collapses. When fans see the graph, they’re not just looking at a number. They’re seeing a moment where the franchise’s defensive standard wasn’t met. A moment that forces the question: How did Pittsburgh’s greatest strength become its weakness in a single season?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -2344,6 +2362,8 @@ background-color: null;
 font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1979</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2018</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">2019</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -2590,12 +2610,12 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Steelers Defensive Performance Through History"</span>,</span>
+font-style: inherit;">"Steelers Defense in Focus"</span>,</span>
 <span id="cb4-35">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"DSRS vs Points Allowed"</span>,</span>
+font-style: inherit;">"A clear look at how every Steelers defense stacks up against 2025."</span>,</span>
 <span id="cb4-36">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
@@ -2662,6 +2682,8 @@ font-style: inherit;">print</span>(scatter_chart_all)</span></code></pre></div><
 </div>
 </div>
 </div>
+<p>The scatterplot comparing DSRS to Points Allowed paints one of the clearest pictures of Pittsburgh’s defensive identity — and where the 2025 team diverges from it. Most seasons cluster in the upper-left region of the graph, where strong DSRS ratings pair with low points allowed, reflecting the classic Steelers formula for winning football. The highlighted years like 1979, 2018, 2019, and even 2023 all fall within this historical sweet spot. Then there’s 2025, isolated in the bottom-right corner, where poor defensive ratings collide with elevated scoring allowed. Its position on the chart visually separates it from five decades of Steelers standards, showing not just a statistical outlier but a fundamental break in performance. No matter how you interpret the data; efficiency, dominance, or consistency, the scatter plot makes one thing undeniable: 2025 stands alone for all the wrong reasons.</p>
+<p>In the end, the numbers, charts, and historical comparisons all point toward the same conclusion. The 2025 Steelers defense isn’t simply underperforming — it’s charting new territory in the franchise’s defensive decline. But while the data makes this season difficult to ignore, it also sets the stage for a potential reset. Pittsburgh has rebounded from low points before, rebuilding elite defenses through smart draft picks, bold scheme changes, and a commitment to physical, disciplined football. If history is any guide, this down year may become the spark that reignites the defensive identity Steelers fans have relied on for generations.</p>
 
 
 
